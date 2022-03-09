@@ -1,0 +1,23 @@
+.flex-container {
+   size: max;
+    flex-direction:row;
+    flex-flow: row;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    background-color:  #000000;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+
+  }
+
+section{
+   padding: 100px;
+}
+.flex-item{
+      order: 3;
+      padding: 50px;
+      border: 2px solid red;
+      background-color:  rgb(209, 209, 209);
+  }
